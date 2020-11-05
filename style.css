@@ -143,3 +143,26 @@ table {
   clear: both;
   *zoom: 1;
 }
+
+.container {
+  margin: auto auto;
+  padding: 20px 40px;
+  width: 50%;
+}
+.container ul {
+  display: flex;
+  flex-direction: row;
+}
+.container li {
+  width: 25%;
+}
+
+.container a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding-left: 50px;
+}
+a:hover {
+  text-decoration: none;
+}
